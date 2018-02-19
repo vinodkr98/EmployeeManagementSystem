@@ -6,8 +6,8 @@ import com.test.ems.model.Employee;
  
 public interface EmployeeService {
      
-    public void addEmployee(Employee employee);
- 
+	public void addEmployee(Employee employee);
+	 
     public List<Employee> getAllEmployees();
  
     public void deleteEmployee(Integer employeeId);
